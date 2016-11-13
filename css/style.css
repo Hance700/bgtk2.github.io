@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url(fon.jpg);
+    font: 12px/1,67 Arial, Helvetica, sans-serif;
+    padding: 0px 0;
+}
+.wraper{
+    width: 960px;
+    margin: 0 auto;
+}
+/*header begin*/
+#header{
+    position: absolute;
+    background: #000;
+    height: 100px;
+    width: 2000px;
+    -o-border-radius: 0px 0px 0 0;
+    -moz-border-radius: 0px 0px 0 0;
+    -webkit-border-radius: 0px 0px 0 0;
+    border-radius: 0px 0px 0px 0px;
+}
+.softelite{
+    
+    top: 10px;
+    left: 30px;
+}
+
+ul.menu_one {
+    margin: -50px; /* Обнуляем значение отступов */
+    padding: 0px; /* Значение полей */
+    margin-left: 600px;
+   }
+   ul.menu_one li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+/*header end*/
+
+/*nav left*/
+nav_left{
+    position: absolute;
+    background: #fff;
+    height: 577px;
+    width: 200px;
+    top: 140px;
+    margin-left: 120px;
+    
+    -o-border-radius: 0px 0px 0 0;
+    -moz-border-radius: 0px 0px 0 0;
+    -webkit-border-radius: 0px 0px 0 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*nav left end*/
+ul.menu_left {
+    margin: 0px; /* Обнуляем значение отступов */
+    padding: 0px; /* Значение полей */
+    
+   }
+   ul.menu_left li {
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 7px; /* Поля вокруг текста */
+   }
+/*menu_left*/
+
+/*menu_left end*/
+
+#footer{
+    position: absolute;
+    background: #dad3d3;
+    height: 620px;
+    width: 900px;
+    top: 470px;
+    margin-left: 330px;
+}
+.sort{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#panel_one{
+    position: absolute;
+    background: #000000;
+    height: 330px;
+    width: 900px;
+    top: 140px;
+    margin-left: 330px;
+}
+
+
+
